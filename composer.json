@@ -1,0 +1,39 @@
+{
+  "name": "dd4you/dpay",
+  "description": "This package used for the payment gateway (PhonePe, Paytm, Razorpay ) integration quickly.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel-dpay",
+    "dpay-laravel",
+    "laravel",
+    "laravel 9",
+    "Dpay",
+    "Paytm",
+    "PhonePe",
+    "Razorpay"
+  ],
+  "autoload": {
+    "psr-4": {
+      "DD4You\\Dpay\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DD4You\\Dpay\\DpayServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "Vinay Singh",
+      "email": "vinay@dd4you.in"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": ">=8.0"
+  }
+}

@@ -1,0 +1,21 @@
+<?php
+
+// Industry Type Retail
+// Channel ID (For Website) WEB
+// Channel ID (For Mobile Apps) WAP
+// mid=oCUTpH37914787931643     ZpsqDd42488117746297        Digita86912906158710
+// key=LM@4P&XLQPsHMQf4         MKMo2%0SvLS_5z4%            u0BE3Zo41h5DlPHR
+
+return [
+    'paytm' => [
+        'test' => true,
+        'merchant_id' => 'Digita86912906158710',
+        'key' => 'u0BE3Zo41h5DlPHR',
+    ],
+    'phonepe' => [
+        'host' => 'https://api-preprod.phonepe.com/apis/hermes',
+        'merchant_id' => 'PGTESTPAYUAT',
+        'salt_key' => '099eb0cd-02cf-4e2a-8aca-3e6c6aff0399',
+        'salt_index' => 1,
+    ],
+];
